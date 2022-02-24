@@ -23,3 +23,15 @@ var sayHello = function() {
 var timedGreeting = setTimeout(sayHello, 2000);
 // use this to prevent it from happening at all
 clearTimeout(timedGreeting);
+
+
+// Coding quiz challenge 
+// view high scores - call back to robots?
+// question up top, selectable answers, timer in the corner
+// ends with your score
+// asks for your initials
+// !! displays your score in a list of high scores
+// !! high scores is on another html page
+// 75 seconds is fine
+// no randomness to the questions necessary
+// how to track the score is up to us
